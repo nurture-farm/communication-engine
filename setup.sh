@@ -1,0 +1,13 @@
+mvn install:install-file -Dfile=jars/common_enums_proto-v1.8.926-RELEASE.jar  -DgroupId=farm.nurture -DartifactId=common_enums_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/entities_proto-v1.8.926-RELEASE.jar  -DgroupId=farm.nurture.core.contracts -DartifactId=entities_proto -Dversion=1.0.00 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/event_portal_grpc-v1.8.926-RELEASE.jar -DgroupId=farm.nurture.core.contracts -DartifactId=event_portal_grpc -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/event_portal_proto-v1.8.926-RELEASE.jar  -DgroupId=farm.nurture.core.contracts -DartifactId=event_portal_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/headers_proto-v1.8.926-RELEASE.jar   -DgroupId=farm.nurture.core.contracts -DartifactId=headers_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/infra-0.0.4.jar   -DgroupId=farm.nurture.core.contracts -DartifactId=infra -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/laminar-0.0.2.jar   -DgroupId=farm.nurture.core.contracts -DartifactId=laminar -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/nf-commons-kafka-0.0.3.jar  -DgroupId=farm.nurture -DartifactId=nf-commons-kafka -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/nf-commons-util-0.0.3.jar  -DgroupId=farm.nurture -DartifactId=nf-commons-util -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/time_slot_proto-v1.8.926-RELEASE.jar -DgroupId=farm.nurture.core.contracts -DartifactId=time_slot_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/utils_proto-v1.8.926-RELEASE.jar -DgroupId=farm.nurture.core.contracts -DartifactId=utils_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/communication_engine_proto-v1.8.926-RELEASE.jar -DgroupId=farm.nurture.core.contracts -DartifactId=communication_engine_proto -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;
+mvn install:install-file -Dfile=jars/communication_engine_grpc-v1.8.926-RELEASE.jar -DgroupId=farm.nurture.core.contracts -DartifactId=communication_engine_grpc -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true;

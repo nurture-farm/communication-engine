@@ -1,0 +1,24 @@
+<Configuration status="ERROR">
+    <Appenders>
+        <!--  Async Loggers will auto-flush in batches, so switch off immediateFlush.  -->
+        <!--
+                <RandomAccessFile name="RandomAccessFile" fileName="log/logging.txt" immediateFlush="false" append="false">
+                    <PatternLayout>
+                        <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
+                    </PatternLayout>
+                </RandomAccessFile>
+                 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m %ex%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info" includeLocation="false">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <logger name="com.zaxxer.hikari" level="ERROR" />
+        <logger name="org.apache.kafka" level="ERROR" />
+        <logger name="io.grpc.netty.shaded.io" level="ERROR" />
+        <logger name="io.netty" level="ERROR" />
+    </Loggers>
+</Configuration>

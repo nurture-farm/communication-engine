@@ -1,0 +1,13 @@
+ {  
+    "code"  : 200,
+    "message"  :  "OK" ,
+    "result"  : {
+      "actorId"  : 123456,
+      "actorType"  : 1,
+      "mobileNumber"  :  "9999999999" ,
+      "languageCode"  :  "en-us" ,
+      "active"  : true,
+      "action"  : 1
+   }
+
+ } 

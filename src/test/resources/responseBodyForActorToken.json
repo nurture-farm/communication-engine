@@ -1,0 +1,12 @@
+{
+    "code" : 200,
+    "message" : "OK",
+    "result" : {
+      "actorId" : 123456,
+      "actorType" : 1,
+      "appId" : "1",
+      "fcmToken" : "fcm_token",
+      "active" : true,
+      "action" : 1
+    }
+}
